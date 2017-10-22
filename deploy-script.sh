@@ -1,3 +1,3 @@
-#!/bin/sh
+#!/bin/bash
 sudo apt-get install git-ftp
 git ftp init

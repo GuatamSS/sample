@@ -1,7 +1,8 @@
 language: php
+install: true
 env:
   global:
     - "FTP_USER=frore-mitten"
     - "FTP_PASSWORD=hellohello"
 
-script: deploy-script.sh
+script: ./deploy-script.sh
