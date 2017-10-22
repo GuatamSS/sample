@@ -1,6 +1,6 @@
 language: php
-#before_install:
-#- sudo apt-get install git-ftp
+before_install:
+- sudo apt-get install git-ftp
 install: true
 env:
   global:
