@@ -1,10 +1,5 @@
 language: php
+install: true
 before_install:
 - sudo apt-get install git-ftp
-install: true
-env:
-  global:
-    - "FTP_USER=frore-mitten"
-    - "FTP_PASSWORD=hellohello"
-
 script: ./deploy-script.sh
