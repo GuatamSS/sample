@@ -3,8 +3,5 @@ env:
   global:
     - "FTP_USER=frore-mitten"
     - "FTP_PASSWORD=hellohello"
-deploy:
-  provider: script
-  script: deploy-script.sh
-  on:
-    branch: master
+
+script: deploy-script.sh
