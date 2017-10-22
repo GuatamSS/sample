@@ -1,0 +1,7 @@
+language: php
+env:
+  global:
+    - "FTP_USER=frore-mitten"
+    - "FTP_PASSWORD=hellohello"
+after_success:
+    "curl --ftp-create-dirs -T sample.txt -u $FTP_USER:$FTP_PASSWORD ftp://files.000webhost.com/public_html/sample.txt"
